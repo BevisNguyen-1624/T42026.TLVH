@@ -175,9 +175,8 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với minigame{" "}
-                        <strong>SĂN DẤU YODY</strong> 🔍 nằm trong khuôn khổ
-                        Hành trình Tuần lễ văn hoá - một hoạt động để cùng nhìn
-                        lại những dấu mốc đã làm nên YODY của hôm nay.
+                        <strong>TÌM HIỂU Y-VOICE</strong> 🔍 nằm trong khuôn khổ
+                        Hành trình Tuần lễ văn hoá - một hoạt động để cùng hiểu rõ hơn về cơ chế vô cùng thiết thực.
                       </p>
                     </div>
 
@@ -188,10 +187,10 @@ export default function App() {
                       <ul className="list-disc space-y-2 pl-5 text-slate-700 leading-7">
                         <li>
                           Chọn đáp án bạn cho là chính xác nhất với mỗi câu
-                          hỏi, tổng cộng có 20 câu hỏi.
+                          hỏi, tổng cộng có 10 câu hỏi.
                         </li>
                         <li>
-                          Nhân sự trả lời đúng 20/20 sẽ nhận 50 Y Point và
+                          Nhân sự trả lời đúng 10/10 sẽ nhận 50 Y Point và
                           được ghi nhận hoàn thành thử thách.
                         </li>
                         <li>
@@ -202,10 +201,10 @@ export default function App() {
                     </div>
                     <div className="text-center">
                       <p className="text-sm text-slate-500 uppercase tracking-[0.18em] mb-2">
-                        Cùng khám phá
+                        Chúng ta hãy cùng nhau
                       </p>
                       <h2 className="text-2xl text-orange-600 font-semibold text-slate-900">
-                        LỊCH SỬ HÌNH THÀNH CỦA YODY NHÉ!
+                        TÌM HIỂU Y-VOICE NHÉEEE!!!
                       </h2>
                     </div>
                   </div>

@@ -128,7 +128,7 @@ export function PersonalIdEntry({ onSubmit }: PersonalIdEntryProps) {
           boxShadow: "0 4px 20px rgba(245,158,11,0.4)",
         }}
       >
-        Bắt đầu phá băng thôiii!!
+        Bắt đầu tìm hiểu thôiii!!
         <ArrowRight className="w-4 h-4" />
       </button>
     </motion.div>
