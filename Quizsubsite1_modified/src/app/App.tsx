@@ -175,8 +175,7 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với minigame{" "}
-                        <strong>TÌM HIỂU Y-VOICE</strong> 🔍 nằm trong khuôn khổ
-                        Hành trình Tuần lễ văn hoá - một hoạt động để cùng hiểu rõ hơn về cơ chế vô cùng thiết thực.
+                        <strong>TÌM HIỂU Y-VOICE</strong> 🔍 Nằm trong chuỗi hành trình Tuần lễ văn hóa, đây không chỉ là một trò chơi, mà là cơ hội để bạn thấu hiểu hơn về "cánh tay nối dài" giúp mọi tâm tư của chúng ta được lắng nghe và hiện thực hóa. Hãy cùng khám phá để thấy tiếng nói của bạn có sức mạnh thay đổi lớn đến thế nào!
                       </p>
                     </div>
 
