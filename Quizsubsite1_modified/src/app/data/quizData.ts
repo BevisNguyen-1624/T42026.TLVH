@@ -78,7 +78,7 @@ export const quizQuestions: Question[] = [
   {
     id: 4,
     question: "Một tổ chức có nhiều feedback nhưng không có cơ chế xử lý rõ ràng sẽ dễ dẫn đến điều gì?",
-    image: questionImage4, // ← đổi thành biến ảnh khác nếu muốn thay hình
+    // image: questionImage4, // ← đổi thành biến ảnh khác nếu muốn thay hình
     options: [
       { key: "A", text: "A. Nhân sự phản hồi nhiều hơn" },
       { key: "B", text: "B. Văn hóa lắng nghe trở nên mạnh hơn" },
