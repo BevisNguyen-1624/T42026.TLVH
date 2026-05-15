@@ -8,7 +8,7 @@
 //  2. Sửa tên file trong dòng import bên dưới
 //  3. Lưu lại — website tự động cập nhật
 
-import backgroundImage from "../../imports/background111.jpg";
+import backgroundImage from "../../imports/TÌM-HIỂU-Y-VOICE.jpeg";
 // Ví dụ:  import backgroundImage from "../../imports/background-moi.jpg";
 
 export { backgroundImage };
