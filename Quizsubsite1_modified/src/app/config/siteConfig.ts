@@ -24,4 +24,4 @@ export const siteTitle = {
 };
 
 // ── NÚT BẮT ĐẦU ─────────────────────────────────────────────
-export const startButtonText = "Yes yes yesssss!!!!";
+export const startButtonText = "Let's gooooo!!!!";
