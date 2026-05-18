@@ -65,9 +65,9 @@ export const quizQuestions: Question[] = [
     question: "Theo lịch triển khai Y - VOICE, nhân sự sẽ thực hiện vote và phản ánh thực trạng trong khoảng thời gian nào?",
     // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
     options: [
-      { key: "A", text: "A. Ngày 01 – 14 hằng tháng" },
-      { key: "B", text: "B. Ngày 15 – 18 hằng tháng" },
-      { key: "C", text: "C. Ngày 18 – 30 hằng tháng3" },
+      { key: "A", text: "A. Ngày 01 – 14 hàng tháng" },
+      { key: "B", text: "B. Ngày 15 – 18 hàng tháng" },
+      { key: "C", text: "C. Ngày 18 – 30 hàng tháng" },
       { key: "D", text: "D. Ngày 10 tháng tiếp theo" },
     ],
     correctAnswer: "A",
