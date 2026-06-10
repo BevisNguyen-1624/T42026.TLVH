@@ -175,7 +175,7 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với minigame{" "}
-                        <strong>TÌM HIỂU Y-VOICE</strong> 🔍 Nằm trong chuỗi hành trình Tuần lễ văn hóa, đây không chỉ là một trò chơi, mà là cơ hội để bạn hiểu hơn về "cánh tay nối dài" giúp mọi tâm tư của chúng ta được lắng nghe và hiện thực hóa. Hãy cùng khám phá để thấy tiếng nói của bạn có sức mạnh thay đổi lớn đến thế nào!
+                        <strong>TÌM HIỂU CHÍNH SÁCH THI ĐUA</strong> 🔍 Nằm trong chuỗi hành trình Tuần lễ văn hóa, đây không chỉ là một trò chơi, mà là cơ hội để bạn hiểu hơn về "cánh tay nối dài" giúp mọi tâm tư của chúng ta được lắng nghe và hiện thực hóa. Hãy cùng khám phá để thấy tiếng nói của bạn có sức mạnh thay đổi lớn đến thế nào!
                       </p>
                     </div>
 
@@ -186,10 +186,10 @@ export default function App() {
                       <ul className="list-disc space-y-2 pl-5 text-slate-700 leading-7">
                         <li>
                           Chọn đáp án bạn cho là chính xác nhất với mỗi câu
-                          hỏi, tổng cộng có 10 câu hỏi.
+                          hỏi, tổng cộng có 20 câu hỏi.
                         </li>
                         <li>
-                          Nhân sự trả lời đúng 10/10 sẽ nhận 50 Y Point và
+                          Nhân sự trả lời đúng 20/20 sẽ nhận 70 Y-Point và
                           được ghi nhận hoàn thành thử thách.
                         </li>
                         <li>
@@ -203,7 +203,7 @@ export default function App() {
                         Chúng ta hãy cùng nhau
                       </p>
                       <h2 className="text-2xl text-orange-600 font-semibold text-slate-900">
-                        TÌM HIỂU Y-VOICE NHÉEEE!!!
+                        TÌM HIỂU CHÍNH SÁCH THI ĐUA NHÉEEE!!!
                       </h2>
                     </div>
                   </div>
