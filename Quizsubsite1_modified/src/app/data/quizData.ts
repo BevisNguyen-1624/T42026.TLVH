@@ -286,7 +286,7 @@ export const scoreResults: ScoreResult[] = [
     range: "0-19",
     title: "BẠN ĐÃ RẤT GẦN ĐÍCH RỒI! 🚀",
     description:
-      '<span style=\'display:block;text-align:center\'>Tiếc một xíu thôi! 🤏<br /><br />Bạn đã đi được gần hết chặng đường và chỉ còn cách kết quả tuyệt đối một vài đáp án nữa thôi.<br /><br />Biết đâu chỉ cần xem lại một chút và thử lại lần nữa, danh hiệu "cao thủ Chính sách thi đua" sẽ gọi tên bạn?<br /><br />Thỏ Láu vẫn đang chờ một lá thư hoàn chỉnh với 20/20 câu trả lời chính xác đấy! 🚀<br /><br />Thử lại ngay để chinh phục điểm số tuyệt đối nhé!</span>',
+      '<span style=\'display:block;text-align:center\'><br />Bạn đã đi được gần hết chặng đường và chỉ còn cách kết quả tuyệt đối một vài đáp án nữa thôi.<br />Biết đâu chỉ cần xem lại một chút và thử lại lần nữa, danh hiệu "cao thủ Chính sách thi đua" sẽ gọi tên bạn?<br />Thỏ Láu vẫn đang chờ một lá thư hoàn chỉnh với 20/20 câu trả lời chính xác đấy! 🚀<br />Thử lại ngay để chinh phục điểm số tuyệt đối nhé!</span>',
     buttonText: "THEO DÕI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
     emoji: "🚀",
   },
@@ -294,7 +294,7 @@ export const scoreResults: ScoreResult[] = [
     range: "20",
     title: "🏆 CHIẾN THẦN THI ĐUA KINH DOANH ĐÂY RỒIIII 🎉",
     description:
-      '<span style=\'display:block;text-align:center\'>Xin chúc mừng bạn!<br /><br />Bạn vừa hoàn thành thử thách với số điểm tuyệt đối! 🎉<br /><br />Không chỉ nắm chắc kiến thức, bạn còn đang tiến thêm một bước trên đường đua săn những phần quà hấp dẫn của Tuần lễ Văn hoá tháng 6. ✨<br /><br />100 Y-Point đã sẵn sàng về tài khoản của bạn rồi đây.<br /><br />Hãy cùng tiếp tục chinh phục những hoạt động tiếp theo nhé!</span>',
+      '<span style=\'display:block;text-align:center\'>Xin chúc mừng bạn!<br />Bạn vừa hoàn thành thử thách với số điểm tuyệt đối! 🎉<br />Không chỉ nắm chắc kiến thức, bạn còn đang tiến thêm một bước trên đường đua săn những phần quà hấp dẫn của Tuần lễ Văn hoá tháng 6. ✨<br />100 Y-Point đã sẵn sàng về tài khoản của bạn rồi đây.<br />Hãy cùng tiếp tục chinh phục những hoạt động tiếp theo nhé!</span>',
     buttonText: "XEM LẠI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
     emoji: "🏆",
   },
