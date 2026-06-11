@@ -54,7 +54,7 @@ export const quizQuestions: Question[] = [
   },
   {
     id: 3,
-    question: "Điều kiện để CGTV đạt hạng vinh danh \"Top 10%\" và nhận thưởng 1.5tr VNĐ?",
+    question: "Điều kiện để CGTV đạt hạng vinh danh \"Top 10%\" và nhận thưởng 1.500.000 đồng là gì?",
     options: [
       { key: "A", text: "A. Nằm trong Top 10% doanh số" },
       { key: "B", text: "B. Top 10% và tổng điểm thi đua >= 90 điểm" },
@@ -90,7 +90,7 @@ export const quizQuestions: Question[] = [
   },
   {
     id: 6,
-    question: "Thực hiện đánh giá vào thời điểm nào và lấy kết quả lần nộp nào?",
+    question: "BP Đào tạo sẽ thực hiện đánh giá kiến thức, năng lực vào thời điểm nào và lấy kết quả lần nộp nào?",
     options: [
       { key: "A", text: "A. Ngày đầu tháng và không tính kết quả" },
       { key: "B", text: "B. Ngày 1 - 15 của tháng giữa quý và lấy kết quả lần nộp cuối cùng" },
@@ -222,14 +222,14 @@ export const quizQuestions: Question[] = [
   },
   {
     id: 17,
-    question: "Tình huống: Bạn An là CGTV đi làm rất chăm chỉ, doanh số và kiến thức đều đạt điểm tối đa. Nhưng đen đủi là tháng này An lại bị ghi nhận vi phạm lỗi diện mạo 1 lần. Theo quy định, An sẽ bị trừ mấy điểm tuân thủ?",
+    question: "Tình huống: Bạn An là CGTV đi làm rất chăm chỉ, doanh số và kiến thức đều đạt điểm tối đa. Nhưng tháng này An lại bị ghi nhận vi phạm lỗi diện mạo 1 lần. Theo quy định, An sẽ còn lại mấy điểm tuân thủ?",
     options: [
-      { key: "A", text: "A. Bị trừ 1 điểm" },
-      { key: "B", text: "B. Bị trừ 2 điểm" },
-      { key: "C", text: "C. Bị trừ 5 điểm" },
-      { key: "D", text: "D. Không bị trừ điểm nào" },
+      { key: "A", text: "A. Chỉ còn 7 điểm" },
+      { key: "B", text: "B. Chỉ còn 5 điểm" },
+      { key: "C", text: "C. Bị tính 0 điểm" },
+      { key: "D", text: "D. Chỉ còn 3 điểm" },
     ],
-    correctAnswer: "B",
+    correctAnswer: "D",
     explanation: "",
   },
   {
@@ -268,6 +268,7 @@ export const quizQuestions: Question[] = [
     correctAnswer: "D",
     explanation: "",
   }
+]
 ];
 // ============================================================
 //  📊 KẾT QUẢ ĐIỂM SỐ
@@ -283,17 +284,17 @@ export interface ScoreResult {
 export const scoreResults: ScoreResult[] = [
   {
     range: "0-19",
-    title: "CHÚT XÍU NỮA LÀ NẮM TRỌN CHÍNH SÁCH THƯỞNG TRONG TÂM TRÍ RỒI! 🕵️‍♂️",
+    title: "BẠN ĐÃ RẤT GẦN ĐÍCH RỒI! 🚀",
     description:
-      '<span style=\'display:block;text-align:center\'>Tiếc một xíu thôi! 🤏<br />Bạn đã rất gần với danh hiệu "Đại sứ thấu hiểu" rồi đó. Chỉ còn vài nút thắt nhỏ nữa thôi là bạn sẽ nắm trọn mọi điều về Y-Voice. Đừng ngần ngại thử lại lần nữa để "phá đảo" bài test này nhé! </span>',
+      '<span style=\'display:block;text-align:center\'>Tiếc một xíu thôi! 🤏<br />Bạn đã đi được gần hết chặng đường và chỉ còn cách kết quả tuyệt đối một vài đáp án nữa thôi. /n💭 Biết đâu chỉ cần xem lại một chút và thử lại lần nữa, danh hiệu "cao thủ Chính sách thi đua" sẽ gọi tên bạn? Thỏ Láu vẫn đang chờ một lá thư hoàn chỉnh với 20/20 câu trả lời chính xác đấy! 🚀 Thử lại ngay để chinh phục điểm số tuyệt đối nhé!</span>',
     buttonText: "THEO DÕI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
     emoji: "🚀",
   },
   {
     range: "20",
-    title: "CHÚC MỪNG BẠN ĐÃ THUỘC LÒNG CHÍNH SÁCH THI ĐUA TRONG TÂM TRÍ RỒI ĐÓ! 🏆",
+    title: "🏆 CHIẾN THẦN THI ĐUA KINH DOANH ĐÂY RỒIIII 🎉",
     description:
-      '<span style=\'display:block;text-align:center\'>Bạn chính là một "mảnh ghép" hoàn hảo của Y-Voice khi hiểu rõ mọi giá trị mà chúng mình đang xây dựng. Đừng để kiến thức này ngủ quên, hãy tiếp tục lan tỏa tinh thần lắng nghe và đóng góp để cộng đồng chúng ta ngày càng vững mạnh nhé! 🚀 Cùng Y-Voice tạo nên thay đổi ngay hôm nay!',
+      '<span style=\'display:block;text-align:center\'>Xin chúc mừng bạn! Bạn vừa hoàn thành thử thách với số điểm tuyệt đối! 🎉 Không chỉ nắm chắc kiến thức, bạn còn đang tiến thêm một bước trên đường đua săn những phần quà hấp dẫn của Tuần lễ Văn hoá tháng 6. ✨ 70 Y-Point đã sẵn sàng về tài khoản của bạn rồi đây. Hãy cùng tiếp tục chinh phục những hoạt động tiếp theo nhé!',
     buttonText: "XEM LẠI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
     emoji: "🏆",
   },

@@ -175,8 +175,8 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với minigame{" "}
-                        <strong>TÌM HIỂU CHÍNH SÁCH THI ĐUA</strong> 🔍 Nằm trong chuỗi hành trình Tuần lễ văn hóa, đây không chỉ là một trò chơi, mà là cơ hội để bạn hiểu hơn về "cánh tay nối dài" giúp mọi tâm tư của chúng ta được lắng nghe và hiện thực hóa. Hãy cùng khám phá để thấy tiếng nói của bạn có sức mạnh thay đổi lớn đến thế nào!
-                      </p>
+                        <strong>TÌM HIỂU CHÍNH SÁCH THI ĐUA KINH DOANH 🏆</strong> 🔍 Nằm trong hành trình Tuần lễ Văn hoá tháng 6, đây không chỉ là một bài Quiz, mà còn là cơ hội để bạn khám phá rõ hơn về những tiêu chí, cơ hội ghi nhận và phần thưởng đang đồng hành cùng mình mỗi ngày tại YODY.
+Hãy cùng thử sức với 20 câu hỏi thú vị để xem bạn hiểu Chính sách thi đua kinh doanh 2026 đến đâu và bỏ túi ngay những phần quà hấp dẫn nhé!</p>
                     </div>
 
                     <div className="rounded-3xl border border-slate-200 bg-white/90 p-5 text-left shadow-sm">
