@@ -176,17 +176,16 @@ export default function App() {
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với minigame{" "}
                         <strong>TÌM HIỂU CHÍNH SÁCH THI ĐUA KINH DOANH 🏆</strong>
-    </p>
-    
-    <p className="text-lg leading-8 text-slate-700">
-      Nằm trong hành trình Tuần lễ Văn hoá tháng 6, đây không chỉ là một bài Quiz, mà còn là cơ hội để bạn khám phá rõ hơn về những tiêu chí, cơ hội ghi nhận và phần thưởng đang đồng hành cùng mình mỗi ngày tại YODY.
-    </p>
-    
-    <p className="text-lg leading-8 text-slate-700">
-      Hãy cùng thử sức với 20 câu hỏi thú vị để xem bạn hiểu Chính sách thi đua kinh doanh 2026 đến đâu và bỏ túi ngay những phần quà hấp dẫn nhé!
-    </p>
-  </div>
-</div>
+                      </p>
+                      
+                      <p className="text-lg leading-8 text-slate-700">
+                        Nằm trong hành trình Tuần lễ Văn hoá tháng 6, đây không chỉ là một bài Quiz, mà còn là cơ hội để bạn khám phá rõ hơn về những tiêu chí, cơ hội ghi nhận và phần thưởng đang đồng hành cùng mình mỗi ngày tại YODY.
+                      </p>
+                      
+                      <p className="text-lg leading-8 text-slate-700">
+                        Hãy cùng thử sức với 20 câu hỏi thú vị để xem bạn hiểu Chính sách thi đua kinh doanh 2026 đến đâu và bỏ túi ngay những phần quà hấp dẫn nhé!
+                      </p>
+                    </div>
 
                     <div className="rounded-3xl border border-slate-200 bg-white/90 p-5 text-left shadow-sm">
                       <p className="font-semibold text-slate-900 mb-3">
@@ -194,24 +193,22 @@ export default function App() {
                       </p>
                       <ul className="list-disc space-y-2 pl-5 text-slate-700 leading-7">
                         <li>
-                          Chọn đáp án bạn cho là chính xác nhất với mỗi câu
-                          hỏi, tổng cộng có 20 câu hỏi.
+                          Chọn đáp án bạn cho là chính xác nhất với mỗi câu hỏi, tổng cộng có 20 câu hỏi.
                         </li>
                         <li>
-                          Nhân sự trả lời đúng 20/20 sẽ nhận 70 Y-Point và
-                          được ghi nhận hoàn thành thử thách.
+                          Nhân sự trả lời đúng 20/20 sẽ nhận 70 Y-Point và được ghi nhận hoàn thành thử thách.
                         </li>
                         <li>
-                          Nhân sự có thể tham gia nhiều lần cho đến khi đạt
-                          điểm tối đa.
+                          Nhân sự có thể tham gia nhiều lần cho đến khi đạt điểm tối đa.
                         </li>
                       </ul>
                     </div>
+
                     <div className="text-center">
                       <p className="text-sm text-slate-500 uppercase tracking-[0.18em] mb-2">
                         Chúng ta hãy cùng nhau
                       </p>
-                      <h2 className="text-2xl text-orange-600 font-semibold text-slate-900">
+                      <h2 className="text-2xl text-orange-600 font-semibold">
                         TÌM HIỂU CHÍNH SÁCH THI ĐUA NHÉEEE!!!
                       </h2>
                     </div>
