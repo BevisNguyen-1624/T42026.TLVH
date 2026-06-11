@@ -200,7 +200,7 @@ export default function App() {
               Chọn đáp án bạn cho là chính xác nhất với mỗi câu hỏi, tổng cộng có 20 câu hỏi.
             </li>
             <li>
-              Nhân sự trả lời đúng 20/20 sẽ nhận 70 Y-Point và được ghi nhận hoàn thành thử thách.
+              Nhân sự trả lời đúng 20/20 sẽ nhận 100 Y-Point và được ghi nhận hoàn thành thử thách.
             </li>
             <li>
               Nhân sự có thể tham gia nhiều lần cho đến khi đạt điểm tối đa.
