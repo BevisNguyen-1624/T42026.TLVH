@@ -294,7 +294,7 @@ export const scoreResults: ScoreResult[] = [
     range: "20",
     title: "🏆 CHIẾN THẦN THI ĐUA KINH DOANH ĐÂY RỒIIII 🎉",
     description:
-      '<span style=\'display:block;text-align:center\'>Xin chúc mừng bạn!<br /><br />Bạn vừa hoàn thành thử thách với số điểm tuyệt đối! 🎉<br /><br />Không chỉ nắm chắc kiến thức, bạn còn đang tiến thêm một bước trên đường đua săn những phần quà hấp dẫn của Tuần lễ Văn hoá tháng 6. ✨<br /><br />70 Y-Point đã sẵn sàng về tài khoản của bạn rồi đây.<br /><br />Hãy cùng tiếp tục chinh phục những hoạt động tiếp theo nhé!</span>',
+      '<span style=\'display:block;text-align:center\'>Xin chúc mừng bạn!<br /><br />Bạn vừa hoàn thành thử thách với số điểm tuyệt đối! 🎉<br /><br />Không chỉ nắm chắc kiến thức, bạn còn đang tiến thêm một bước trên đường đua săn những phần quà hấp dẫn của Tuần lễ Văn hoá tháng 6. ✨<br /><br />100 Y-Point đã sẵn sàng về tài khoản của bạn rồi đây.<br /><br />Hãy cùng tiếp tục chinh phục những hoạt động tiếp theo nhé!</span>',
     buttonText: "XEM LẠI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
     emoji: "🏆",
   },
