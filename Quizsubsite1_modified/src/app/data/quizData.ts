@@ -81,7 +81,7 @@ export const quizQuestions: Question[] = [
     question: "Khi số lượng nhân sự ở ngưỡng thưởng vượt mức % quy định, tiêu chí nào được dùng để ưu tiên xét từ cao xuống thấp?",
     options: [
       { key: "A", text: "A. Tính tại cửa hàng làm lâu nhất" },
-      { key: "B", text: "B. Tính điểm trung bình theo thời gian thực tế" },
+      { key: "B", text: "B. Tính theo tỉ lệ hoàn thành doanh thu từ cao xuống thấp" },
       { key: "C", text: "C. Lấy kết quả cửa hàng cuối cùng" },
       { key: "D", text: "D. Không được xét thi đua" },
     ],
