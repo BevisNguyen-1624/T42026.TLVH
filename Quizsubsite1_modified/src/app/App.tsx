@@ -174,7 +174,7 @@ export default function App() {
                   <div className="max-w-3xl space-y-6">
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
-                        Chào mừng bạn đến với minigame{" "}
+                        Chào mừng bạn đến với quiz{" "}
                         <strong>TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY 2026</strong> Mỗi chuyến đi đều bắt đầu từ những người đồng hành. Hãy cùng khám phá chương trình để hiểu hơn về những quyền lợi, hoạt động và ý nghĩa đằng sau hành trình mà Công ty dành tặng cho mỗi đội nhóm. Hy vọng đây sẽ là khởi đầu cho thật nhiều kỷ niệm đáng nhớ cùng đồng đội!
                       </p>
                     </div>
