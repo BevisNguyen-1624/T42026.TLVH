@@ -8,7 +8,7 @@
 //  2. Sửa tên file trong dòng import bên dưới
 //  3. Lưu lại — website tự động cập nhật
 
-import backgroundImage from "../../imports/TÌM-HIỂU-Y-VOICE.jpeg";
+import backgroundImage from "../../imports/backgroundwebt6_2026.png";
 // Ví dụ:  import backgroundImage from "../../imports/background-moi.jpg";
 
 export { backgroundImage };
@@ -20,7 +20,7 @@ export const brandGradient = "linear-gradient(135deg, #f59e0b, #fb923c)";
 // ── TIÊU ĐỀ QUIZ ────────────────────────────────────────────
 export const siteTitle = {
   line1: "HÀNH TRÌNH TUẦN LỄ VĂN HÓA",
-  line2: "TÌM HIỂU Y-VOICE",
+  line2: "TÌM HIỂU CHÍNH SÁCH THI ĐUA",
 };
 
 // ── NÚT BẮT ĐẦU ─────────────────────────────────────────────
