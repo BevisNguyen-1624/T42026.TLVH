@@ -207,17 +207,6 @@ export default function App() {
                       </h2>
                     </div>
                   </div>
-
-        <div className="text-center">
-          <p className="text-sm text-slate-500 uppercase tracking-[0.18em] mb-2">
-            Chúng ta hãy cùng nhau
-          </p>
-          <h2 className="text-2xl text-orange-600 font-semibold">
-            TÌM HIỂU CHÍNH SÁCH THI ĐUA NHÉEEE!!!
-          </h2>
-        </div>
-      </div>
-
       <button
         onClick={handleStart}
         className="w-full max-w-md py-4 rounded-xl transition-all duration-200 hover:opacity-90 active:scale-[0.98] mt-1"
