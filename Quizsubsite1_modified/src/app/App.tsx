@@ -186,7 +186,7 @@ export default function App() {
                       <ul className="list-disc space-y-2 pl-5 text-slate-700 leading-7">
                         <li>
                           Chọn đáp án bạn cho là chính xác nhất với mỗi câu
-                          hỏi, tổng cộng có 15 câu hỏi.
+                          hỏi, tổng cộng có 15 câu hỏi
                         </li>
                         <li>
                           Nhân sự trả lời đúng 15/15 sẽ nhận 50 Y Point và
