@@ -223,18 +223,18 @@ export interface ScoreResult {
 export const scoreResults: ScoreResult[] = [
   {
     range: "0-14",
-    title: "CHÚT XÍU NỮA LÀ NẮM TRỌN Y-VOICE TRONG TÂM TRÍ RỒI! 🕵️‍♂️",
+    title: "👏 Thiếu một chút nữa thôi!",
     description:
-      '<span style=\'display:block;text-align:center\'><br />Bạn đã đi được gần hết chặng đường và chỉ còn cách kết quả tuyệt đối một vài đáp án nữa thôi.<br />Biết đâu chỉ cần xem lại một chút và thử lại lần nữa, danh hiệu "cao thủ Chính sách thi đua" sẽ gọi tên bạn?<br />Thỏ Láu vẫn đang chờ một lá thư hoàn chỉnh với 20/20 câu trả lời chính xác đấy! 🚀<br />Thử lại ngay để chinh phục điểm số tuyệt đối nhé!</span>',
-    buttonText: "THEO DÕI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
+      '<span style=\'display:block;text-align:center\'><br />Bạn đã hiểu thêm về Chương trình Gắn kết Công ty 2026, nhưng vẫn còn một vài thông tin thú vị đang chờ bạn khám phá.<br />Đừng ngần ngại thử lại để chinh phục 15/15 câu hỏi và sẵn sàng cho một hành trình gắn kết thật trọn vẹn cùng đồng đội.<br />Chúc bạn thành công và hẹn gặp bạn trong những khoảnh khắc thật đáng nhớ cùng đội nhóm! 💙<br /></span>',
+    buttonText: "THEO DÕI THÔNG TIN CHI TIẾT CHƯƠNG TRÌNH TẠI ĐÂY",
     emoji: "🚀",
   },
   {
     range: "15",
-    title: "CHÚC MỪNG BẠN ĐÃ SỞ HỮU 'CẨM NANG Y-VOICE' VỚI KẾT QUẢ TUYỆT ĐỐI! 🏆",
+    title: "🏆 Quá xuất sắc! Bạn đã chinh phục trọn vẹn 15/15 câu hỏi!",
     description:
-      '<span style=\'display:block;text-align:center\'>Xin chúc mừng bạn!<br />Bạn vừa hoàn thành thử thách với số điểm tuyệt đối! 🎉<br />Không chỉ nắm chắc kiến thức, bạn còn đang tiến thêm một bước trên đường đua săn những phần quà hấp dẫn của Tuần lễ Văn hoá tháng 6. ✨<br />100 Y-Point đã sẵn sàng về tài khoản của bạn rồi đây.<br />Hãy cùng tiếp tục chinh phục những hoạt động tiếp theo nhé!</span>',
-    buttonText: "XEM LẠI THÔNG TIN CHI TIẾT CHÍNH SÁCH TẠI ĐÂY",
+      '<span style=\'display:block;text-align:center\'>Bạn đã sẵn sàng cho Chương trình Gắn kết Công ty 2026 rồi đó!<br />Chúc bạn và đội nhóm sẽ có một chuyến gắn kết thật nhiều niềm vui, thật nhiều tiếng cười và mang về những kỷ niệm đáng nhớ bên những người đồng hành của mình.✨<br />Hẹn gặp bạn trong hành trình gắn kết sắp tới! 💙<br /></span>',
+    buttonText: "THEO DÕI THÊM CÁC THÔNG TIN CHI TIẾT CHƯƠNG TRÌNH TẠI ĐÂY",
     emoji: "🏆",
   },
 ];

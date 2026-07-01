@@ -175,7 +175,7 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với minigame{" "}
-                        <strong>TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY</strong> 🔍 Nằm trong chuỗi hành trình Tuần lễ văn hóa, đây không chỉ là một trò chơi, mà là cơ hội để bạn hiểu hơn về "cánh tay nối dài" giúp mọi tâm tư của chúng ta được lắng nghe và hiện thực hóa. Hãy cùng khám phá để thấy tiếng nói của bạn có sức mạnh thay đổi lớn đến thế nào!
+                        <strong>TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY 2026</strong> Mỗi chuyến đi đều bắt đầu từ những người đồng hành. Hãy cùng khám phá chương trình để hiểu hơn về những quyền lợi, hoạt động và ý nghĩa đằng sau hành trình mà Công ty dành tặng cho mỗi đội nhóm. Hy vọng đây sẽ là khởi đầu cho thật nhiều kỷ niệm đáng nhớ cùng đồng đội!
                       </p>
                     </div>
 
@@ -203,7 +203,7 @@ export default function App() {
                         Chúng ta hãy cùng nhau
                       </p>
                       <h2 className="text-2xl text-orange-600 font-semibold text-slate-900">
-                        TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT NHÉEEE!!!
+                        TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY 2026 NHÉEEE!!!
                       </h2>
                     </div>
                   </div>
