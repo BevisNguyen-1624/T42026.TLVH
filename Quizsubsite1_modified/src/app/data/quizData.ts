@@ -28,156 +28,187 @@ export interface Question {
 }
 
 export const quizQuestions: Question[] = [
-
-  // ── Câu 1 ──────────────────────────────────────────────────
   {
     id: 1,
-    question: "Y - VOICE được xây dựng trong bối cảnh “Năm nền tảng 2026”. Ý nghĩa sâu nhất của cơ chế này là gì?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
+    question: "Đối tượng nào sau đây ĐỦ ĐIỀU KIỆN tham gia chương trình Gắn kết đội nhóm YODY 2026?",
     options: [
-      { key: "A", text: "A. Tạo thêm một kênh khảo sát nội bộ định kỳ" },
-      { key: "B", text: "B. Giúp tổ chức phát hiện và xử lý các điểm chưa trọn vẹn để vận hành bền vững hơn" },
-      { key: "C", text: "C. Tăng số lượng hoạt động văn hóa doanh nghiệp" },
-      { key: "D", text: "D. Đo lường mức độ hài lòng của nhân sự theo tháng" },
-    ],
-    correctAnswer: "B",
-    explanation: "",
-  },
-
-  // ── Câu 2 ──────────────────────────────────────────────────
-  {
-    id: 2,
-    question: "Là một Nhân sự của YODY, bạn nên gửi các đóng góp lên Y - VOICE theo tinh thần nào?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
-    options: [
-      { key: "A", text: "A. Đẩy trách nhiệm cho các bộ phận liên quan để vấn đề được xử lý nhanh hơn" },
-      { key: "B", text: "B. Tận dụng Y - VOICE để thể hiện sự bức xúc cá nhân hoặc công kích người khác" },
-      { key: "C", text: "C. Mang tinh thần xây dựng, mong muốn tổ chức và môi trường làm việc tốt hơn mỗi ngày" },
-      { key: "D", text: "D. Chỉ phản ánh để chứng minh bộ phận của mình không phải nguyên nhân vấn đề" },
+      { key: "A", text: "A. Chỉ nhân sự chính thức." },
+      { key: "B", text: "B. Chỉ nhân sự có thâm niên trên 1 năm." },
+      { key: "C", text: "C. Toàn bộ nhân sự chính thức và thử việc ký HĐ trước ngày 01/07/2026 và còn làm việc tại thời điểm chi tiền (bao gồm cả NS nghỉ thai sản/nghỉ không lương theo quy định)." },
+      { key: "D", text: "D. Toàn bộ nhân sự tính đến hết năm 2026." },
     ],
     correctAnswer: "C",
     explanation: "",
   },
-
-  // ── Câu 3 ──────────────────────────────────────────────────
+  {
+    id: 2,
+    question: "Tổng mức hỗ trợ chi phí cho một Nhân sự chính thức (bao gồm cả NS đang thai sản) là bao nhiêu?",
+    options: [
+      { key: "A", text: "A. 1.000.000 VNĐ." },
+      { key: "B", text: "B. 1.500.000 VNĐ." },
+      { key: "C", text: "C. 500.000 VNĐ." },
+      { key: "D", text: "D. 2.000.000 VNĐ." },
+    ],
+    correctAnswer: "B",
+    explanation: "",
+  },
   {
     id: 3,
-    question: "Theo lịch triển khai Y - VOICE, nhân sự sẽ thực hiện vote và phản ánh thực trạng trong khoảng thời gian nào?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
+    question: "Cơ cấu nguồn tiền hỗ trợ 1.500.000 VNĐ của Nhân sự chính thức gồm những nguồn nào?",
     options: [
-      { key: "A", text: "A. Ngày 01 – 14 hàng tháng" },
-      { key: "B", text: "B. Ngày 15 – 18 hàng tháng" },
-      { key: "C", text: "C. Ngày 18 – 30 hàng tháng" },
-      { key: "D", text: "D. Ngày 10 tháng tiếp theo" },
+      { key: "A", text: "A. 100% từ ngân sách Công ty." },
+      { key: "B", text: "B. 100% từ quỹ Công đoàn." },
+      { key: "C", text: "C. 1.000.000 VNĐ từ ngân sách Công ty + 500.000 VNĐ từ Công đoàn." },
+      { key: "D", text: "D. 500.000 VNĐ từ ngân sách Công ty + 1.000.000 VNĐ từ Công đoàn." },
+    ],
+    correctAnswer: "C",
+    explanation: "",
+  },
+  {
+    id: 4,
+    question: "Mức hỗ trợ chi phí đối với Nhân sự thử việc (ký HĐ trước 01/07/2026 và còn làm việc tại thời điểm chi tiền) là bao nhiêu?",
+    options: [
+      { key: "A", text: "A. 500.000 VNĐ." },
+      { key: "B", text: "B. 1.000.000 VNĐ" },
+      { key: "C", text: "C. 1.500.000 VNĐ." },
+      { key: "D", text: "D. Không được hỗ trợ chi phí." },
+    ],
+    correctAnswer: "B",
+    explanation: "",
+  },
+  {
+    id: 5,
+    question: "Theo quy định, chi phí gắn kết của các đội nhóm sẽ được Công ty chi trả cho ai để tổ chức hoạt động?",
+    options: [
+      { key: "A", text: "A. Chi trực tiếp vào tài khoản cá nhân của từng thành viên trong đội nhóm." },
+      { key: "B", text: "B. Chi cho Kế toán của Phòng ban hoặc Cửa hàng giữ hộ." },
+      { key: "C", text: "C. Khối Văn phòng - Omni: Chi cho Giám đốc/GĐ Khối/Trưởng phòng; Khối Cửa hàng/YOKIDs/NEVO: Chi cho Quản lý cửa hàng (hoặc OM nếu cửa hàng chưa có QLCH)." },
+      { key: "D", text: "D. Chi cho Giám đốc vùng hoặc Giám đốc Nhân sự khối." },
+    ],
+    correctAnswer: "C",
+    explanation: "",
+  },
+  {
+    id: 6,
+    question: "Thời gian dự kiến chi trả chi phí hỗ trợ gắn kết theo kế hoạch là khi nào?",
+    options: [
+      { key: "A", text: "A. 03/07/2026." },
+      { key: "B", text: "B. 01/07/2026." },
+      { key: "C", text: "C. 19/07/2026." },
+      { key: "D", text: "D. 03/08/2026." },
     ],
     correctAnswer: "A",
     explanation: "",
   },
-
-  // ── Câu 4 (có ảnh) ─────────────────────────────────────────
-  {
-    id: 4,
-    question: "Một tổ chức có nhiều feedback nhưng không có cơ chế xử lý rõ ràng sẽ dễ dẫn đến điều gì?",
-    // image: questionImage4, // ← đổi thành biến ảnh khác nếu muốn thay hình
-    options: [
-      { key: "A", text: "A. Nhân sự phản hồi nhiều hơn" },
-      { key: "B", text: "B. Văn hóa lắng nghe trở nên mạnh hơn" },
-      { key: "C", text: "C. Feedback dần mất giá trị và nhân sự giảm niềm tin vào việc lên tiếng" },
-      { key: "D", text: "D. Quy trình vận hành nhanh hơn" },
-    ],
-    correctAnswer: "C",
-    explanation: "",
-  },
-
-  // ── Câu 5 ──────────────────────────────────────────────────
-  {
-    id: 5,
-    question: "Nguyên tắc “Minh bạch – Công khai – Nhất quán” trong Y - VOICE nhằm mục tiêu quan trọng nhất nào dưới đây?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
-    options: [
-      { key: "A", text: "A. Tăng mức độ nhận diện truyền thông nội bộ" },
-      { key: "B", text: "B. Đảm bảo mọi vấn đề đều được xử lý giống nhau" },
-      { key: "C", text: "C. Tạo niềm tin rằng feedback được ghi nhận và theo đuổi đến cùng" },
-      { key: "D", text: "D. Hạn chế tranh luận nội bộ" },
-    ],
-    correctAnswer: "C",
-    explanation: "",
-  },
-
-  // ── Câu 6 ──────────────────────────────────────────────────
-  {
-    id: 6,
-    question: "Trong Y - VOICE, nhân sự có thể gửi phản hồi theo hình thức nào?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
-    options: [
-      { key: "A", text: "A. Chỉ được công khai danh tính để đảm bảo minh bạch" },
-      { key: "B", text: "B. Chỉ được phản hồi thông qua quản lý trực tiếp" },
-      { key: "C", text: "C. Chỉ được phản hồi khi có sự đồng ý của leader" },
-      { key: "D", text: "D. Có thể phản hồi công khai hoặc ẩn danh tùy tính chất vấn đề" },
-    ],
-    correctAnswer: "D",
-    explanation: "",
-  },
-
-  // ── Câu 7 ─────────────────────────────────────────────────
   {
     id: 7,
-    question: "Trong Y - VOICE, phản hồi hoặc vấn đề nào sẽ được ưu tiên xử lý trước?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
+    question: "Khi tham gia hoạt động gắn kết theo kế hoạch đã đăng ký, nhân sự được nghỉ bao nhiêu ngày nguyên lương?",
     options: [
-      { key: "A", text: "A. Phản hồi từ cấp quản lý trở lên" },
-      { key: "B", text: "B. Phản hồi được gửi sớm nhất trong tháng" },
-      { key: "C", text: "C. Phản hồi có số lượng vote cao nhất từ nhân sự toàn công ty" },
-      { key: "D", text: "D. Phản hồi liên quan đến nhiều phòng ban" },
-    ],
-    correctAnswer: "C",
-    explanation: "",
-  },
-
-  // ── Câu 8 ──────────────────────────────────────────────────
-  {
-    id: 8,
-    question: "Nếu muốn theo dõi kết quả phản hồi và đưa ra những thảo luận trên Y - VOICE, nhân sự cần làm gì?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
-    options: [
-      { key: "A", text: "A. Chờ quản lý trực tiếp gửi lại thông tin" },
-      { key: "B", text: "B. Đợi đến buổi họp tháng để nghe cập nhật" },
-      { key: "C", text: "C. Gửi Gapo riêng cho Ban Văn hóa" },
-      { key: "D", text: "D. Đăng nhập bằng tài khoản Unicorn để theo dõi báo cáo và thảo luận" },
-    ],
-    correctAnswer: "D",
-    explanation: "",
-  },
-
-  // ── Câu 9 ──────────────────────────────────────────────────
-  {
-    id: 9,
-    question: "Đối với những vấn đề thầm kín, cá nhân như vi phạm Giá trị cốt lõi hay phản ánh về leader... sau khi nhân sự chọn gửi phản hồi hồi thầm kín thì ai sẽ là những người đọc được phản hồi và xử lý?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
-    options: [
-      { key: "A", text: "A. Tất cả mọi người đọc được" },
-      { key: "B", text: "B. CEO - Giám đốc Nhân sự - TBP văn hoá" },
-      { key: "C", text: "C. Người được nhắc tới trong phản hồi" },
-      { key: "D", text: "D. Không ai đọc được " },
+      { key: "A", text: "A. 0.5 ngày." },
+      { key: "B", text: "B. 01 ngày." },
+      { key: "C", text: "C. 02 ngày." },
+      { key: "D", text: "D. Không được nghỉ phép có lương." },
     ],
     correctAnswer: "B",
     explanation: "",
   },
-
-  // ── Câu 10 ─────────────────────────────────────────────────
   {
-    id: 10,
-    question: "Theo lịch triển khai Y - VOICE, Ban Điều hành cần công bố kết quả chính thức tới toàn bộ nhân sự chậm nhất vào thời điểm nào?",
-    // image: , // ← bỏ comment và gán biến ảnh nếu muốn thêm hình
+    id: 8,
+    question: "Để được ghi nhận ngày nghỉ phép gắn kết, nhân sự phải chọn lý do nghỉ trên phần mềm là gì?",
     options: [
-      { key: "A", text: "A. Ngày 15 hằng tháng" },
-      { key: "B", text: "B. Trong vòng 48 giờ sau voting" },
-      { key: "C", text: "C. Ngày 10 của tháng tiếp theo" },
-      { key: "D", text: "D. Cuối quý để tổng hợp đầy đủ dữ liệu" },
+      { key: "A", text: "A. Nghỉ việc riêng." },
+      { key: "B", text: "B. Nghỉ phép năm." },
+      { key: "C", text: "C. \"Gắn kết đội nhóm\"." },
+      { key: "D", text: "D. Teambuilding 2026." },
     ],
     correctAnswer: "C",
     explanation: "",
-  },]
+  },
+  {
+    id: 9,
+    question: "Hệ thống phần mềm sẽ mở tính năng tạo đơn nghỉ \"Gắn kết đội nhóm\" trong khung thời gian nào?",
+    options: [
+      { key: "A", text: "A. Chỉ từ 01/07 đến 19/07/2026." },
+      { key: "B", text: "B. Chỉ từ 24/06 đến 02/07/2026." },
+      { key: "C", text: "C. Từ 01/07 đến 03/08/2026." },
+      { key: "D", text: "D. Mở suốt năm 2026." },
+    ],
+    correctAnswer: "A",
+    explanation: "",
+  },
+  {
+    id: 10,
+    question: "Khoản tiền hỗ trợ nào tính vào thu nhập chịu thuế TNCN của nhân sự chính thức?",
+    options: [
+      { key: "A", text: "A. 500.000 VNĐ từ ngân sách Công đoàn." },
+      { key: "B", text: "B. Cả 1.500.000 VNĐ đều chịu thuế." },
+      { key: "C", text: "C. Không có khoản nào phải chịu thuế TNCN." },
+      { key: "D", text: "D. 1.000.000 VNĐ từ ngân sách Công ty (cộng vào thu nhập tháng 7)." },
+    ],
+    correctAnswer: "D",
+    explanation: "",
+  },
+  {
+    id: 11,
+    question: "Hạn chót để Trưởng phòng/Quản lý cửa hàng gửi danh sách nhận tiền có chữ ký về cho Kế toán là khi nào?",
+    options: [
+      { key: "A", text: "A. 02/07/2026." },
+      { key: "B", text: "B. 19/07/2026." },
+      { key: "C", text: "C. 03/08/2026." },
+      { key: "D", text: "D. 10/08/2026." },
+    ],
+    correctAnswer: "C",
+    explanation: "",
+  },
+  {
+    id: 12,
+    question: "Nếu không hoàn tất danh sách nhận tiền có chữ ký gửi về Công đoàn/Kế toán đúng hạn, điều gì sẽ xảy ra?",
+    options: [
+      { key: "A", text: "A. Sẽ bị phạt cảnh cáo toàn team." },
+      { key: "B", text: "B. Công ty có quyền truy thu 500.000 VNĐ (khoản hỗ trợ từ Công đoàn) của từng nhân sự trong kỳ lương tháng 7." },
+      { key: "C", text: "C. Sẽ không được tham gia các chương trình sau." },
+      { key: "D", text: "D. Leader sẽ phải tự bỏ tiền túi ra đền." },
+    ],
+    correctAnswer: "B",
+    explanation: "",
+  },
+  {
+    id: 13,
+    question: "Một đội nhóm được ghi nhận là HOÀN TẤT chương trình khi đáp ứng đủ các điều kiện nào?",
+    options: [
+      { key: "A", text: "A. Tổ chức đúng ngày đăng ký." },
+      { key: "B", text: "B. Tick hoàn tất tổ chức trên link theo dõi." },
+      { key: "C", text: "C. Được công đoàn xác nhận hoàn tất giấy tờ (danh sách có chữ ký gửi trước ngày 03/08)." },
+      { key: "D", text: "D. Bao gồm tất cả các điều kiện trên." },
+    ],
+    correctAnswer: "D",
+    explanation: "",
+  },
+  {
+    id: 14,
+    question: "Nhân sự không đi gắn kết (do trường hợp bất khả kháng) có được nhận tiền hỗ trợ và hưởng 1 ngày nghỉ có lương không?",
+    options: [
+      { key: "A", text: "A. Được nhận tiền và tính thuế TNCN theo quy định, đồng thời vẫn được nghỉ 1 ngày có lương (nếu làm đơn đúng hạn 01/07 - 19/07)." },
+      { key: "B", text: "B. Không được nhận tiền, không được nghỉ." },
+      { key: "C", text: "C. Được nhận tiền nhưng bị trừ ngày phép năm." },
+      { key: "D", text: "D. Chỉ được nhận tiền, không được nghỉ." },
+    ],
+    correctAnswer: "A",
+    explanation: "",
+  },
+  {
+    id: 15,
+    question: "Các Phòng ban/Bộ phận/Cửa hàng đi gắn kết có cần phải lấy hóa đơn, chứng từ chi tiêu về cho công ty không?",
+    options: [
+      { key: "A", text: "A. Bắt buộc phải lấy hóa đơn đỏ." },
+      { key: "B", text: "B. Không cần lấy hóa đơn, chứng từ (chỉ cần hoàn tất danh sách ký nhận tiền đầy đủ gửi về đúng hạn)." },
+      { key: "C", text: "C. Phải chụp lại tất cả biên lai bán lẻ." },
+      { key: "D", text: "D. Chỉ khối cửa hàng mới cần lấy hóa đơn." },
+    ],
+    correctAnswer: "B",
+    explanation: "",
+  }
+]
 // ============================================================
 //  📊 KẾT QUẢ ĐIỂM SỐ
 // ============================================================
@@ -191,7 +222,7 @@ export interface ScoreResult {
 
 export const scoreResults: ScoreResult[] = [
   {
-    range: "0-9",
+    range: "0-14",
     title: "CHÚT XÍU NỮA LÀ NẮM TRỌN Y-VOICE TRONG TÂM TRÍ RỒI! 🕵️‍♂️",
     description:
       '<span style=\'display:block;text-align:center\'>Tiếc một xíu thôi! 🤏<br />Bạn đã rất gần với danh hiệu "Đại sứ thấu hiểu" rồi đó. Chỉ còn vài nút thắt nhỏ nữa thôi là bạn sẽ nắm trọn mọi điều về Y-Voice. Đừng ngần ngại thử lại lần nữa để "phá đảo" bài test này nhé! </span>',
@@ -199,7 +230,7 @@ export const scoreResults: ScoreResult[] = [
     emoji: "🚀",
   },
   {
-    range: "10",
+    range: "15",
     title: "CHÚC MỪNG BẠN ĐÃ SỞ HỮU 'CẨM NANG Y-VOICE' VỚI KẾT QUẢ TUYỆT ĐỐI! 🏆",
     description:
       '<span style=\'display:block;text-align:center\'>Bạn chính là một "mảnh ghép" hoàn hảo của Y-Voice khi hiểu rõ mọi giá trị mà chúng mình đang xây dựng. Đừng để kiến thức này ngủ quên, hãy tiếp tục lan tỏa tinh thần lắng nghe và đóng góp để cộng đồng chúng ta ngày càng vững mạnh nhé! 🚀 Cùng Y-Voice tạo nên thay đổi ngay hôm nay!',
@@ -209,7 +240,7 @@ export const scoreResults: ScoreResult[] = [
 ];
 
 export function getScoreResult(score: number): ScoreResult {
-  if (score <= 9) return scoreResults[0];
-  if (score === 10) return scoreResults[1];
+  if (score <= 14) return scoreResults[0];
+  if (score === 15) return scoreResults[1];
   return scoreResults[0];
 }
