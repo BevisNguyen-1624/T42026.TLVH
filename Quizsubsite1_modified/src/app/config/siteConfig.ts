@@ -19,8 +19,7 @@ export const brandGradient = "linear-gradient(135deg, #f59e0b, #fb923c)";
 
 // ── TIÊU ĐỀ QUIZ ────────────────────────────────────────────
 export const siteTitle = {
-  line1: "HÀNH TRÌNH TUẦN LỄ VĂN HÓA",
-  line2: "TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY",
+  line1: "TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY",
 };
 
 // ── NÚT BẮT ĐẦU ─────────────────────────────────────────────
