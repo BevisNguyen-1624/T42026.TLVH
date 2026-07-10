@@ -239,8 +239,8 @@ export const quizQuestions: Question[] = [
     options: [
       { key: "A", text: "A. Không được hưởng chế độ này" },
       { key: "B", text: "B. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác" },
-      { key: "C", text: "C. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác và hưởng tiền dưỡng sức sau sinh - Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" },
-      { key: "D", text: "D. Hưởng tiền dưỡng sức sau sinh - Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" }
+      { key: "C", text: "C. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác và hưởng tiền dưỡng sức sau sinh = Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" },
+      { key: "D", text: "D. Hưởng tiền dưỡng sức sau sinh = Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" }
     ],
     correctAnswer: "C",
     explanation: ""
@@ -286,7 +286,7 @@ export const scoreResults: ScoreResult[] = [
     range: "0-19",
     title: "👏 Thiếu một chút nữa thôi!",
     description:
-      '<span style=\'display:block;text-align:center\'><br />Bạn đã hiểu rõ hơn về các Quy định đào tạo và Chính sách BHXH 2026, nhưng vẫn còn một vài thông tin quan trọng đang chờ bạn khám phá.<br />Đừng ngần ngại thử lại để chinh phục trọn vẹn 15/15 câu hỏi, giúp bản thân tự tin nắm vững mọi quyền lợi chính đáng của mình tại Công ty.<br />Chúc bạn thành công trong lượt xem lại này nhé! 💙<br /></span>',
+      '<span style=\'display:block;text-align:center\'><br />Bạn đã hiểu rõ hơn về các Quy định đào tạo và Chính sách BHXH 2026, nhưng vẫn còn một vài thông tin quan trọng đang chờ bạn khám phá.<br />Đừng ngần ngại thử lại để chinh phục trọn vẹn 20/20 câu hỏi, giúp bản thân tự tin nắm vững mọi quyền lợi chính đáng của mình tại Công ty.<br />Chúc bạn thành công trong lượt xem lại này nhé! 💙<br /></span>',
     buttonText: "THEO DÕI THÔNG TIN CHI TIẾT CHƯƠNG TRÌNH TẠI ĐÂY",
     emoji: "🚀",
   },
