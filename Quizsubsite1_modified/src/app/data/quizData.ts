@@ -171,7 +171,7 @@ export const quizQuestions: Question[] = [
       { key: "D", text: "D. 0đ" }
     ],
     correctAnswer: "B",
-    explanation: "Thưởng thực tế = Mức thưởng chính sách × Tỷ lệ hoàn thành giờ đào tạo = 15.000.000đ × 80% = 24.000.000đ."
+    explanation: "Thưởng thực tế = Mức thưởng chính sách × Tỷ lệ hoàn thành giờ đào tạo = 15.000.000đ × 80% = 12.000.000đ."
   },
   {
     id: 13,

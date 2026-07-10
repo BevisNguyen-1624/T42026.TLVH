@@ -62,7 +62,7 @@ export default function App() {
 
   const handleIdSubmit = (id: string) => {
     setUserId(id);
-    const shuffled = [...quizQuestions].sort(() => Math.random() - 0.5);
+    //const shuffled = [...quizQuestions].sort(() => Math.random() - 0.5);//
     setQuestions(shuffled);
     setPhase("quiz");
     setCurrentIndex(0);
