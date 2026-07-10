@@ -99,7 +99,7 @@ export const quizQuestions: Question[] = [
       { key: "E", text: "E. Branding Excellence (Thương hiệu xuất sắc)" }
     ],
     correctAnswer: "B",
-    explanation: ""Financial Excellence" không nằm trong danh mục đào tạo trọng tâm đến năm 2030 của YODY"
+    explanation: "'Financial Excellence' không nằm trong danh mục đào tạo trọng tâm đến năm 2030 của YODY"
   },
   {
     id: 7,
