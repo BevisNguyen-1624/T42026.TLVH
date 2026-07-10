@@ -286,7 +286,7 @@ export const scoreResults: ScoreResult[] = [
     range: "0-19",
     title: "👏 Thiếu một chút nữa thôi!",
     description:
-      '<span style=\'display:block;text-align:center\'><br />Bạn đã hiểu thêm về Chương trình Gắn kết Công ty 2026, nhưng vẫn còn một vài thông tin thú vị đang chờ bạn khám phá.<br />Đừng ngần ngại thử lại để chinh phục 15/15 câu hỏi và sẵn sàng cho một hành trình gắn kết thật trọn vẹn cùng đồng đội.<br />Chúc bạn thành công và hẹn gặp bạn trong những khoảnh khắc thật đáng nhớ cùng đội nhóm! 💙<br /></span>',
+      '<span style=\'display:block;text-align:center\'><br />Bạn đã hiểu rõ hơn về các Quy định đào tạo và Chính sách BHXH 2026, nhưng vẫn còn một vài thông tin quan trọng đang chờ bạn khám phá.<br />Đừng ngần ngại thử lại để chinh phục trọn vẹn 15/15 câu hỏi, giúp bản thân tự tin nắm vững mọi quyền lợi chính đáng của mình tại Công ty.<br />Chúc bạn thành công trong lượt xem lại này nhé! 💙<br /></span>',
     buttonText: "THEO DÕI THÔNG TIN CHI TIẾT CHƯƠNG TRÌNH TẠI ĐÂY",
     emoji: "🚀",
   },
@@ -294,8 +294,7 @@ export const scoreResults: ScoreResult[] = [
     range: "20-20",
     title: "🏆 Quá xuất sắc! Bạn đã chinh phục trọn vẹn 20/20 câu hỏi!",
     description:
-      '<span style=\'display:block;text-align:center\'>Bạn đã sẵn sàng cho Chương trình Gắn kết Công ty 2026 rồi đó!<br />Chúc bạn và đội nhóm sẽ có một chuyến gắn kết thật nhiều niềm vui, thật nhiều tiếng cười và mang về những kỷ niệm đáng nhớ bên những người đồng hành của mình.✨<br />Hẹn gặp bạn trong hành trình gắn kết sắp tới! 💙<br /></span>',
-    buttonText: "THEO DÕI THÊM CÁC THÔNG TIN CHI TIẾT CHƯƠNG TRÌNH TẠI ĐÂY",
+      '<span style=\'display:block;text-align:center\'>Tuyệt vời! Bạn đã hoàn toàn nắm vững các Quy định đào tạo và Chính sách Bảo hiểm xã hội 2026 của Công ty rồi đó!<br />Hy vọng những kiến thức thiết thực này sẽ giúp bạn luôn an tâm công tác, chủ động phát triển năng lực và vững bước trên hành trình sự nghiệp sắp tới.✨<br />Chúc bạn luôn gặt hái được nhiều thành công cùng đội ngũ của mình! 💙<br /></span>',
     emoji: "🏆",
   },
 ];

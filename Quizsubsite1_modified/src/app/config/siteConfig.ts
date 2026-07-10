@@ -8,7 +8,7 @@
 //  2. Sửa tên file trong dòng import bên dưới
 //  3. Lưu lại — website tự động cập nhật
 
-import backgroundImage from "../../imports/BACKGROUNDTB.png";
+import backgroundImage from "../../imports/backgroundt72026.png";
 // Ví dụ:  import backgroundImage from "../../imports/background-moi.jpg";
 
 export { backgroundImage };
@@ -19,7 +19,7 @@ export const brandGradient = "linear-gradient(135deg, #f59e0b, #fb923c)";
 
 // ── TIÊU ĐỀ QUIZ ────────────────────────────────────────────
 export const siteTitle = {
-  line1: "TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY 2026",
+  line1: "TÌM HIỂU QUY ĐỊNH ĐÀO TẠO VÀ BHXH 2026",
 };
 
 // ── NÚT BẮT ĐẦU ─────────────────────────────────────────────

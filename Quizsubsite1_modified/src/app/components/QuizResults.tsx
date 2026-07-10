@@ -165,7 +165,7 @@ export function QuizResults({ score, totalQuestions, userId, onRestart }: QuizRe
         className="w-full mb-3"
       >
         <a
-          href="https://www.gapowork.vn/group/2370033771119926272/posts/671414869841145856"
+          href="https://www.gapowork.vn/posts/671612519801342976"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full py-4 rounded-xl flex items-center justify-center gap-2 transition-all duration-200 hover:opacity-90 active:scale-[0.98]"

@@ -175,7 +175,7 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với quiz{" "}
-                        <strong>TÌM HIỂU QUY ĐỊNH ĐÀO TẠO VÀ CHÍNH SÁCH BẢO HIỂM XÃ HỘI 2026</strong> Mỗi chuyến đi đều bắt đầu từ những người đồng hành. Hãy cùng khám phá chương trình để hiểu hơn về những quyền lợi, hoạt động và ý nghĩa đằng sau hành trình mà Công ty dành tặng cho mỗi đội nhóm. Hy vọng đây sẽ là khởi đầu cho thật nhiều kỷ niệm đáng nhớ cùng đồng đội!
+                        <strong>TÌM HIỂU QUY ĐỊNH ĐÀO TẠO VÀ CHÍNH SÁCH BẢO HIỂM XÃ HỘI 2026</strong> Bài trắc nghiệm ngắn này được thiết kế nhằm giúp cán bộ nhân viên nắm vững các quy định về nâng cao năng lực và quyền lợi bảo hiểm xã hội tại Công ty. Hãy cùng bắt đầu để cập nhật những thông tin phúc lợi mới nhất dành riêng cho bạn!
                       </p>
                     </div>
 
@@ -203,7 +203,7 @@ export default function App() {
                         Chúng ta hãy cùng nhau
                       </p>
                       <h2 className="text-2xl text-orange-600 font-semibold text-slate-900">
-                        TÌM HIỂU QUY ĐỊNH ĐÀO TẠO VÀ CHÍNH SÁCH BẢO HIỂM XÃ HỘI 2026 NHÉEEE!!!
+                        TÌM HIỂU QĐĐT VÀ CHÍNH SÁCH BẢO HIỂM XÃ HỘI 2026 NHÉEEE!!!
                       </h2>
                     </div>
                   </div>
