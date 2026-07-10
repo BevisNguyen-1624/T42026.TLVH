@@ -30,183 +30,244 @@ export interface Question {
 export const quizQuestions: Question[] = [
   {
     id: 1,
-    question: "Đối tượng nào sau đây ĐỦ ĐIỀU KIỆN tham gia chương trình Gắn kết đội nhóm YODY 2026?",
+    question: "Quy định đào tạo 2026 áp dụng cho những đối tượng nào tại YODY?",
     options: [
-      { key: "A", text: "A. Chỉ nhân sự chính thức." },
-      { key: "B", text: "B. Chỉ nhân sự có thâm niên trên 1 năm." },
-      { key: "C", text: "C. Toàn bộ nhân sự chính thức và thử việc ký HĐ trước ngày 01/07/2026 và còn làm việc tại thời điểm chi tiền (bao gồm cả NS nghỉ thai sản/nghỉ không lương theo quy định)." },
-      { key: "D", text: "D. Toàn bộ nhân sự tính đến hết năm 2026." },
+      { key: "A", text: "A. Chỉ áp dụng cho khối văn phòng và nhân viên chính thức từ cấp L3 trở lên." },
+      { key: "B", text: "B. 100% cán bộ nhân viên bao gồm cả chính thức, thử việc và hợp đồng thời vụ từ L1 đến L8." },
+      { key: "C", text: "C. Chỉ áp dụng cho nhân sự khối vận hành bán lẻ (VHBL) trực tiếp tại cửa hàng." },
+      { key: "D", text: "D. Nhân viên chính thức và không áp dụng cho nhân sự đang trong quá trình thử việc." }
     ],
-    correctAnswer: "C",
-    explanation: "",
+    correctAnswer: "B",
+    explanation: "Đây là toàn bộ các tiêu chí bắt buộc được nêu trong quy định nhằm đảm bảo chất lượng của đội ngũ giảng dạy nội bộ."
   },
   {
     id: 2,
-    question: "Tổng mức hỗ trợ chi phí cho một Nhân sự chính thức (bao gồm cả NS đang thai sản) là bao nhiêu?",
+    question: "Tiêu chuẩn nào dưới đây là BẮT BUỘC để một cán bộ nhân viên có thể trở thành Giảng viên nội bộ tại YODY?",
     options: [
-      { key: "A", text: "A. 1.000.000 VNĐ." },
-      { key: "B", text: "B. 1.500.000 VNĐ." },
-      { key: "C", text: "C. 500.000 VNĐ." },
-      { key: "D", text: "D. 2.000.000 VNĐ." },
+      { key: "A", text: "A. Có cấp bậc từ L1 trở lên, có mong muốn chia sẻ và đã làm việc tại công ty tối thiểu 6 tháng." },
+      { key: "B", text: "B. Phải đạt cấp bậc từ L3 trở lên, am hiểu chuyên môn sâu với kinh nghiệm thực tế từ 1 năm, có kỹ năng mềm tốt và giảng thử đạt yêu cầu." },
+      { key: "C", text: "C. Chỉ cần thuộc cấp quản lý từ Giám đốc Khối (L7) trở lên thì mặc nhiên trở thành giảng viên mà không cần đánh giá." },
+      { key: "D", text: "D. Bắt buộc phải có bằng đại học chuyên ngành sư phạm hoặc chứng chỉ đào tạo giảng viên do tổ chức quốc tế cấp." }
     ],
     correctAnswer: "B",
-    explanation: "",
+    explanation: "Đây là toàn bộ các tiêu chí bắt buộc được nêu trong quy định nhằm đảm bảo chất lượng của đội ngũ giảng dạy nội bộ."
   },
   {
     id: 3,
-    question: "Cơ cấu nguồn tiền hỗ trợ 1.500.000 VNĐ của Nhân sự chính thức gồm những nguồn nào?",
+    question: "Theo khung quy định chung CẢ NĂM, cấp bậc L3 (Trưởng nhóm / Quản lý cửa hàng) cần hoàn thành tối thiểu bao nhiêu giờ đào tạo?",
     options: [
-      { key: "A", text: "A. 100% từ ngân sách Công ty." },
-      { key: "B", text: "B. 100% từ quỹ Công đoàn." },
-      { key: "C", text: "C. 1.000.000 VNĐ từ ngân sách Công ty + 500.000 VNĐ từ Công đoàn." },
-      { key: "D", text: "D. 500.000 VNĐ từ ngân sách Công ty + 1.000.000 VNĐ từ Công đoàn." },
+      { key: "A", text: "A. 12 giờ/năm" },
+      { key: "B", text: "B. 18 giờ/năm" },
+      { key: "C", text: "C. 24 giờ/năm" },
+      { key: "D", text: "D. 36 giờ/năm" }
     ],
     correctAnswer: "C",
-    explanation: "",
+    explanation: "Theo bảng quy định chung, cấp L3 có định mức tối thiểu là 24 giờ đào tạo trong một năm tài chính."
   },
   {
     id: 4,
-    question: "Mức hỗ trợ chi phí đối với Nhân sự thử việc (ký HĐ trước 01/07/2026 và còn làm việc tại thời điểm chi tiền) là bao nhiêu?",
+    question: "Hoạt động nào dưới đây KHÔNG được tính vào số giờ đào tạo tích lũy của cán bộ nhân viên?",
     options: [
-      { key: "A", text: "A. 500.000 VNĐ." },
-      { key: "B", text: "B. 1.000.000 VNĐ" },
-      { key: "C", text: "C. 1.500.000 VNĐ." },
-      { key: "D", text: "D. Không được hỗ trợ chi phí." },
+      { key: "A", text: "A. Tham gia các cuộc họp giao ca hằng ngày và họp review KPI định kỳ." },
+      { key: "B", text: "B. Học tập các khóa học e-learning và hoàn thành bài kiểm tra trên LMS." },
+      { key: "C", text: "C. Tham gia chương trình On-the-Job Training (OJT) có biên bản xác nhận." },
+      { key: "D", text: "D. Hoạt động Coaching/Mentoring có cấu trúc rõ ràng từ 60 phút trở lên." }
     ],
-    correctAnswer: "B",
-    explanation: "",
+    correctAnswer: "A",
+    explanation: "Các cuộc họp vận hành, giao ca hoặc đánh giá công việc thông thường không được cấu trúc như một hoạt động đào tạo nên không được tính giờ."
   },
   {
     id: 5,
-    question: "Theo quy định, chi phí gắn kết của các đội nhóm sẽ được Công ty chi trả cho ai để tổ chức hoạt động?",
+    question: "Nhóm năng lực nào trong 5 nhóm năng lực chiến lược đến 2030 bắt buộc phải đào tạo cho 100% nhân sự toàn công ty?",
     options: [
-      { key: "A", text: "A. Chi trực tiếp vào tài khoản cá nhân của từng thành viên trong đội nhóm." },
-      { key: "B", text: "B. Chi cho Kế toán của Phòng ban hoặc Cửa hàng giữ hộ." },
-      { key: "C", text: "C. Khối Văn phòng - Omni: Chi cho Giám đốc/GĐ Khối/Trưởng phòng; Khối Cửa hàng/YOKIDs/NEVO: Chi cho Quản lý cửa hàng (hoặc OM nếu cửa hàng chưa có QLCH)." },
-      { key: "D", text: "D. Chi cho Giám đốc vùng hoặc Giám đốc Nhân sự khối." },
+      { key: "A", text: "A. Retail Excellence (Vận hành bán lẻ xuất sắc)" },
+      { key: "B", text: "B. Culture & Leadership (Văn hoá & Lãnh đạo hiệu suất cao)" },
+      { key: "C", text: "C. E-commerce Excellence (Kinh doanh Online xuất sắc)" },
+      { key: "D", text: "D. Product Excellence (Sản phẩm xuất sắc)" }
     ],
-    correctAnswer: "C",
-    explanation: "",
+    correctAnswer: "B",
+    explanation: "Văn hóa và năng lực phối hợp, lãnh đạo hiệu suất là nền tảng chung bắt buộc cho toàn bộ 100% nhân sự công ty."
   },
   {
     id: 6,
-    question: "Thời gian dự kiến chi trả chi phí hỗ trợ gắn kết theo kế hoạch là khi nào?",
+    question: "Theo Quy định đào tạo, nội dung nào dưới đây KHÔNG PHẢI là một trong 5 nhóm năng lực trọng tâm trong định hướng chiến lược phát triển của YODY tầm nhìn đến năm 2030?",
     options: [
-      { key: "A", text: "A. 03/07/2026." },
-      { key: "B", text: "B. 01/07/2026." },
-      { key: "C", text: "C. 19/07/2026." },
-      { key: "D", text: "D. 03/08/2026." },
+      { key: "A", text: "A. Culture & Leadership (Văn hoá & Lãnh đạo hiệu suất cao)." },
+      { key: "B", text: "B. Financial Excellence (Quản trị tài chính và tối ưu hóa dòng vốn)." },
+      { key: "C", text: "C. Retail Excellence (Vận hành bán lẻ xuất sắc)." },
+      { key: "D", text: "D. Product Excellence (Sản phẩm xuất sắc)." },
+      { key: "E", text: "E. Branding Excellence (Thương hiệu xuất sắc)" }
     ],
-    correctAnswer: "A",
-    explanation: "",
+    correctAnswer: "B",
+    explanation: ""Financial Excellence" không nằm trong danh mục đào tạo trọng tâm đến năm 2030 của YODY"
   },
   {
     id: 7,
-    question: "Khi tham gia hoạt động gắn kết theo kế hoạch đã đăng ký, nhân sự được nghỉ bao nhiêu ngày nguyên lương?",
+    question: "Hạn mức hỗ trợ học phí đào tạo bên ngoài tối đa trong một năm dành cho cấp bậc L2 (Chuyên viên) là bao nhiêu?",
     options: [
-      { key: "A", text: "A. 0.5 ngày." },
-      { key: "B", text: "B. 01 ngày." },
-      { key: "C", text: "C. 02 ngày." },
-      { key: "D", text: "D. Không được nghỉ phép có lương." },
+      { key: "A", text: "A. 3.000.000đ / người" },
+      { key: "B", text: "B. 5.000.000đ / người" },
+      { key: "C", text: "C. 10.000.000đ / người" },
+      { key: "D", text: "D. 20.000.000đ / người" }
     ],
     correctAnswer: "B",
-    explanation: "",
+    explanation: "Hạn mức hỗ trợ học phí đào tạo bên ngoài tối đa trong một năm dành cho cấp bậc L2 (Chuyên viên) là 5.000.000đ / người."
   },
   {
     id: 8,
-    question: "Để được ghi nhận ngày nghỉ phép gắn kết, nhân sự phải chọn lý do nghỉ trên phần mềm là gì?",
+    question: "Đối với các khóa học bên ngoài có chi phí từ 5.000.000đ/người trở lên, những cấp nào có thẩm quyền phê duyệt?",
     options: [
-      { key: "A", text: "A. Nghỉ việc riêng." },
-      { key: "B", text: "B. Nghỉ phép năm." },
-      { key: "C", text: "C. \"Gắn kết đội nhóm\"." },
-      { key: "D", text: "D. Teambuilding 2026." },
+      { key: "A", text: "A. Chỉ cần Giám đốc Nhân sự (HRD) phê duyệt." },
+      { key: "B", text: "B. Cần sự phê duyệt song song của cả Giám đốc Nhân sự (HRD) và Tổng Giám đốc (CEO)." },
+      { key: "C", text: "C. Trưởng bộ phận và Giám đốc Khối trực tiếp phê duyệt là đủ." },
+      { key: "D", text: "D. Phải thông qua biểu quyết của Hội đồng quản trị công ty." }
     ],
-    correctAnswer: "C",
-    explanation: "",
+    correctAnswer: "B",
+    explanation: "Từ ngưỡng 5.000.000đ trở lên, khóa học bắt buộc phải có sự đồng thuận phê duyệt của cả HRD và CEO."
   },
   {
     id: 9,
-    question: "Hệ thống phần mềm sẽ mở tính năng tạo đơn nghỉ \"Gắn kết đội nhóm\" trong khung thời gian nào?",
+    question: "Một giờ đứng lớp giảng dạy trực tiếp của Giảng viên nội bộ được quy đổi tương đương với bao nhiêu giờ học tập trên LMS?",
     options: [
-      { key: "A", text: "A. Chỉ từ 01/07 đến 19/07/2026." },
-      { key: "B", text: "B. Chỉ từ 24/06 đến 02/07/2026." },
-      { key: "C", text: "C. Từ 01/07 đến 03/08/2026." },
-      { key: "D", text: "D. Mở suốt năm 2026." },
+      { key: "A", text: "A. 1.0 giờ học tập" },
+      { key: "B", text: "B. 1.5 giờ học tập" },
+      { key: "C", text: "C. 2.0 giờ học tập" },
+      { key: "D", text: "D. 3.0 giờ học tập" }
     ],
-    correctAnswer: "A",
-    explanation: "",
+    correctAnswer: "B",
+    explanation: "Để ghi nhận công sức chuẩn bị và đứng lớp, công ty quy đổi 1 giờ giảng bài bằng 1.5 giờ học tập tích lũy."
   },
   {
     id: 10,
-    question: "Khoản tiền hỗ trợ nào tính vào thu nhập chịu thuế TNCN của nhân sự chính thức?",
+    question: "Nếu một cán bộ công nhân viên (CBNV) tự nguyện nghỉ việc vào tháng thứ 5 kể từ sau khi hoàn thành khóa học được công ty tài trợ, nhân sự này phải hoàn trả bao nhiêu phần trăm chi phí đào tạo?",
     options: [
-      { key: "A", text: "A. 500.000 VNĐ từ ngân sách Công đoàn." },
-      { key: "B", text: "B. Cả 1.500.000 VNĐ đều chịu thuế." },
-      { key: "C", text: "C. Không có khoản nào phải chịu thuế TNCN." },
-      { key: "D", text: "D. 1.000.000 VNĐ từ ngân sách Công ty (cộng vào thu nhập tháng 7)." },
+      { key: "A", text: "A. 100%" },
+      { key: "B", text: "B. 75%" },
+      { key: "C", text: "C. 50%" },
+      { key: "D", text: "D. Được miễn hoàn trả hoàn toàn." }
     ],
-    correctAnswer: "D",
-    explanation: "",
+    correctAnswer: "C",
+    explanation: "CBNV nghỉ việc trong khoảng từ tháng thứ 4 đến tháng 12 sau khóa học sẽ phải hoàn trả 50% chi phí"
   },
   {
     id: 11,
-    question: "Hạn chót để Trưởng phòng/Quản lý cửa hàng gửi danh sách nhận tiền có chữ ký về cho Kế toán là khi nào?",
+    question: "Hành vi gian lận giờ học hoặc nhờ người khác làm bài kiểm tra hộ trên hệ thống LMS sẽ phải đối mặt với hình thức xử lý cao nhất nào?",
     options: [
-      { key: "A", text: "A. 02/07/2026." },
-      { key: "B", text: "B. 19/07/2026." },
-      { key: "C", text: "C. 03/08/2026." },
-      { key: "D", text: "D. 10/08/2026." },
+      { key: "A", text: "A. Trừ 50% quỹ thưởng cuối năm và khiển trách bằng văn bản." },
+      { key: "B", text: "B. Khóa tài khoản LMS trong vòng 6 tháng và bắt học lại từ đầu." },
+      { key: "C", text: "C. Sa thải." },
+      { key: "D", text: "D. Hạ một bậc lương và thuyên chuyển công tác sang bộ phận khác." }
     ],
     correctAnswer: "C",
-    explanation: "",
+    explanation: "Hành vi gian lận kết quả học tập/kiểm tra bị coi là vi phạm nghiêm trọng tính trung thực và có thể chịu mức kỷ luật cao nhất là sa thải."
   },
   {
     id: 12,
-    question: "Nếu không hoàn tất danh sách nhận tiền có chữ ký gửi về Công đoàn/Kế toán đúng hạn, điều gì sẽ xảy ra?",
+    question: "[Tình huống] Anh A thuộc cấp L3 (Trưởng nhóm văn phòng). Theo chính sách cuối năm, anh đạt hiệu suất công việc xuất sắc và có mức thưởng dự kiến là 15.000.000đ. Tuy nhiên, tỷ lệ hoàn thành số giờ đào tạo bắt buộc của anh trong năm chỉ đạt 80%. Số tiền thưởng cuối năm thực tế anh A nhận được là bao nhiêu?",
     options: [
-      { key: "A", text: "A. Sẽ bị phạt cảnh cáo toàn team." },
-      { key: "B", text: "B. Công ty có quyền truy thu 500.000 VNĐ (khoản hỗ trợ từ Công đoàn) của từng nhân sự trong kỳ lương tháng 7." },
-      { key: "C", text: "C. Sẽ không được tham gia các chương trình sau." },
-      { key: "D", text: "D. Leader sẽ phải tự bỏ tiền túi ra đền." },
+      { key: "A", text: "A. 15.000.000đ" },
+      { key: "B", text: "B. 12.000.000đ" },
+      { key: "C", text: "C. 10.000.000đ" },
+      { key: "D", text: "D. 0đ" }
     ],
     correctAnswer: "B",
-    explanation: "",
+    explanation: "Thưởng thực tế = Mức thưởng chính sách × Tỷ lệ hoàn thành giờ đào tạo = 15.000.000đ × 80% = 24.000.000đ."
   },
   {
     id: 13,
-    question: "Một đội nhóm được ghi nhận là HOÀN TẤT chương trình khi đáp ứng đủ các điều kiện nào?",
+    question: "[Tình huống] Chị B là Chuyên viên tư vấn thuộc khối Vận hành bán lẻ (VHBL). Đến cuối năm, chị đạt 100% KPI doanh số cá nhân và tổng số giờ học tích lũy của chị trên LMS đạt 15 giờ (vượt mức 6 giờ tối thiểu của năm 2026). Tuy nhiên, chị chưa tham gia khóa học bắt buộc 'Kỹ năng tư vấn và bán hàng thời trang'. Chị B có đủ điều kiện nhận thưởng cuối năm không?",
     options: [
-      { key: "A", text: "A. Tổ chức đúng ngày đăng ký." },
-      { key: "B", text: "B. Tick hoàn tất tổ chức trên link theo dõi." },
-      { key: "C", text: "C. Được công đoàn xác nhận hoàn tất giấy tờ (danh sách có chữ ký gửi trước ngày 03/08)." },
-      { key: "D", text: "D. Bao gồm tất cả các điều kiện trên." },
+      { key: "A", text: "A. Có, vì chị đã vượt số giờ học tối thiểu và hoàn thành xuất sắc KPI doanh số." },
+      { key: "B", text: "B. Không, vì 100% nhân sự VHBL (trừ một số đối tượng miễn trừ đặc biệt) bắt buộc phải hoàn thành khóa học chuyên môn này mới đủ điều kiện nhận thưởng cuối năm." },
+      { key: "C", text: "C. Có, nhưng chị sẽ bị hoãn chi trả tiền thưởng sang quý 1 năm sau." },
+      { key: "D", text: "D. Có, nhưng chị phải nộp tiền phạt học bù trị giá 1.000.000đ." }
     ],
-    correctAnswer: "D",
-    explanation: "",
+    correctAnswer: "B",
+    explanation: "Khóa học này là điều kiện bắt buộc riêng cho khối VHBL, nếu thiếu sẽ không đủ điều kiện xét thưởng cuối năm bất kể tổng số giờ đạt bao nhiêu."
   },
   {
     id: 14,
-    question: "Nhân sự không đi gắn kết (do trường hợp bất khả kháng) có được nhận tiền hỗ trợ và hưởng 1 ngày nghỉ có lương không?",
+    question: "[Tình huống] Anh C (cấp L4) được công ty tài trợ 100% chi phí học một khóa học quản lý bên ngoài trị giá 10.000.000đ (đã phê duyệt đúng quy trình). Sau khi học xong được 2 tháng, vì lý do gia đình, anh C nộp đơn xin tự nguyện nghỉ việc hợp pháp. Anh C có trách nhiệm hoàn trả chi phí đào tạo cho công ty như thế nào?",
     options: [
-      { key: "A", text: "A. Được nhận tiền và tính thuế TNCN theo quy định, đồng thời vẫn được nghỉ 1 ngày có lương (nếu làm đơn đúng hạn 01/07 - 19/07)." },
-      { key: "B", text: "B. Không được nhận tiền, không được nghỉ." },
-      { key: "C", text: "C. Được nhận tiền nhưng bị trừ ngày phép năm." },
-      { key: "D", text: "D. Chỉ được nhận tiền, không được nghỉ." },
+      { key: "A", text: "A. Không phải hoàn trả vì anh C nghỉ việc đúng pháp luật và đã đi học đầy đủ." },
+      { key: "B", text: "B. Phải hoàn trả 5.000.000đ (tương đương 50% chi phí khóa học)." },
+      { key: "C", text: "C. Phải hoàn trả 10.000.000đ (tương đương 100% chi phí khóa học)." },
+      { key: "D", text: "D. Phải hoàn trả theo tỷ lệ số ngày còn lại chưa cống hiến đủ 365 ngày." }
     ],
-    correctAnswer: "A",
-    explanation: "",
+    correctAnswer: "C",
+    explanation: "Vì anh C tự nguyện nghỉ việc trong vòng 3 tháng đầu tiên sau khi kết thúc khóa học, tỷ lệ hoàn bồi bắt buộc là 100%."
   },
   {
     id: 15,
-    question: "Các Phòng ban/Bộ phận/Cửa hàng đi gắn kết có cần phải lấy hóa đơn, chứng từ chi tiêu về cho công ty không?",
+    question: "[Tình huống] Chị Lan là Chuyên gia tư vấn mới vào làm việc tại YODY Hà Lam từ ngày 01/08/2026 với cấp bậc L1. Khung quy định chuẩn cả năm của L1 là 12 giờ học/năm. Số giờ học tối thiểu chị Lan cần đạt được để không bị ảnh hưởng đến thưởng cuối năm 2026 là bao nhiêu?",
     options: [
-      { key: "A", text: "A. Bắt buộc phải lấy hóa đơn đỏ." },
-      { key: "B", text: "B. Không cần lấy hóa đơn, chứng từ (chỉ cần hoàn tất danh sách ký nhận tiền đầy đủ gửi về đúng hạn)." },
-      { key: "C", text: "C. Phải chụp lại tất cả biên lai bán lẻ." },
-      { key: "D", text: "D. Chỉ khối cửa hàng mới cần lấy hóa đơn." },
+      { key: "A", text: "A. 12 giờ" },
+      { key: "B", text: "B. 6 giờ" },
+      { key: "C", text: "C. 3 giờ" },
+      { key: "D", text: "D. 0 giờ (Vì chị Lan là nhân viên mới vào sau thời điểm quy định có hiệu lực)." }
     ],
     correctAnswer: "B",
-    explanation: "",
+    explanation: "Do quy định ban hành giữa năm và áp dụng giảm 50% khối lượng giờ học bắt buộc cho toàn bộ nhân sự trong năm 2026, cấp L1 chỉ cần đạt 6 giờ thực tế."
+  },
+  {
+    id: 16,
+    question: "Theo quy định của Pháp luật Bảo hiểm xã hội được điều chỉnh từ ngày 01/07/2026, nhân sự nữ tại YODY khi nghỉ việc để sinh con thứ 2 (trường hợp sinh đơn) thì được hưởng chế độ nghỉ thai sản trong thời gian bao lâu?",
+    options: [
+      { key: "A", text: "A. 5 tháng" },
+      { key: "B", text: "B. 6 tháng" },
+      { key: "C", text: "C. 7 tháng" },
+      { key: "D", text: "D. 8 tháng" }
+    ],
+    correctAnswer: "C",
+    explanation: ""
+  },
+  {
+    id: 17,
+    question: "Với chế độ ốm đau dành cho nhân sự đóng bảo hiểm xã hội tại YODY, khi nghỉ bản thân ốm đau, nhân sự sẽ được nghỉ bao nhiêu ngày theo quy định?",
+    options: [
+      { key: "A", text: "A. Tối đa 30 ngày trong năm nếu đã đóng BHXH bắt buộc dưới 15 năm; Tối đa 40 ngày trong năm nếu đã đóng từ 15 đến dưới 30 năm; Tối đa 60 ngày trong năm nếu đã đóng từ đủ 30 năm trở lên" },
+      { key: "B", text: "B. Tối đa 40 ngày trong năm nếu đã đóng BHXH bắt buộc dưới 15 năm; Tối đa 50 ngày trong năm nếu đã đóng từ 15 đến dưới 30 năm; Tối đa 60 ngày trong năm nếu đã đóng từ đủ 30 năm trở lên" },
+      { key: "C", text: "C. Tối đa 30 ngày trong năm nếu đã đóng BHXH bắt buộc dưới 15 năm; Tối đa 60 ngày trong năm nếu đã đóng từ 15 đến dưới 30 năm; Tối đa 80 ngày trong năm nếu đã đóng từ đủ 30 năm trở lên" },
+      { key: "D", text: "D. Tối đa 20 ngày trong năm nếu đã đóng BHXH bắt buộc dưới 15 năm; Tối đa 30 ngày trong năm nếu đã đóng từ 15 đến dưới 30 năm; Tối đa 50 ngày trong năm nếu đã đóng từ đủ 30 năm trở lên" }
+    ],
+    correctAnswer: "A",
+    explanation: ""
+  },
+  {
+    id: 18,
+    question: "CBCNV nữ ngay sau thời gian hưởng chế độ thai sản, trong khoảng thời gian 30 ngày đầu làm việc mà sức khỏe chưa phục hồi thì sẽ được hưởng chế độ nghỉ dưỡng sức sau sinh như thế nào?",
+    options: [
+      { key: "A", text: "A. Không được hưởng chế độ này" },
+      { key: "B", text: "B. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác" },
+      { key: "C", text: "C. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác và hưởng tiền dưỡng sức sau sinh - Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" },
+      { key: "D", text: "D. Hưởng tiền dưỡng sức sau sinh - Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" }
+    ],
+    correctAnswer: "C",
+    explanation: ""
+  },
+  {
+    id: 19,
+    question: "Khi vợ sinh con thứ 2, lao động nam sẽ được nghỉ tối đa bao nhiêu ngày làm việc?",
+    options: [
+      { key: "A", text: "A. 15 ngày làm việc" },
+      { key: "B", text: "B. 10 ngày làm việc" },
+      { key: "C", text: "C. 5 ngày làm việc" },
+      { key: "D", text: "D. Không được nghỉ" }
+    ],
+    correctAnswer: "B",
+    explanation: ""
+  },
+  {
+    id: 20,
+    question: "Quy trình thực hiện chế độ bao gồm bao nhiêu bước và đó là những bước nào?",
+    options: [
+      { key: "A", text: "A. 3 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về cơ quan BHXH - Cơ quan BHXH phê duyệt và thanh toán" },
+      { key: "B", text: "B. 2 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về cơ quan BHXH" },
+      { key: "C", text: "C. 4 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về cơ quan BHXH - C&B lập danh sách đề nghị giải quyết - Cơ quan BHXH phê duyệt và thanh toán" },
+      { key: "D", text: "D. Chỉ cần làm đơn trên phần mềm" }
+    ],
+    correctAnswer: "C",
+    explanation: ""
   }
 ]
 // ============================================================
@@ -222,7 +283,7 @@ export interface ScoreResult {
 
 export const scoreResults: ScoreResult[] = [
   {
-    range: "0-14",
+    range: "0-19",
     title: "👏 Thiếu một chút nữa thôi!",
     description:
       '<span style=\'display:block;text-align:center\'><br />Bạn đã hiểu thêm về Chương trình Gắn kết Công ty 2026, nhưng vẫn còn một vài thông tin thú vị đang chờ bạn khám phá.<br />Đừng ngần ngại thử lại để chinh phục 15/15 câu hỏi và sẵn sàng cho một hành trình gắn kết thật trọn vẹn cùng đồng đội.<br />Chúc bạn thành công và hẹn gặp bạn trong những khoảnh khắc thật đáng nhớ cùng đội nhóm! 💙<br /></span>',
@@ -230,8 +291,8 @@ export const scoreResults: ScoreResult[] = [
     emoji: "🚀",
   },
   {
-    range: "15",
-    title: "🏆 Quá xuất sắc! Bạn đã chinh phục trọn vẹn 15/15 câu hỏi!",
+    range: "20-20",
+    title: "🏆 Quá xuất sắc! Bạn đã chinh phục trọn vẹn 20/20 câu hỏi!",
     description:
       '<span style=\'display:block;text-align:center\'>Bạn đã sẵn sàng cho Chương trình Gắn kết Công ty 2026 rồi đó!<br />Chúc bạn và đội nhóm sẽ có một chuyến gắn kết thật nhiều niềm vui, thật nhiều tiếng cười và mang về những kỷ niệm đáng nhớ bên những người đồng hành của mình.✨<br />Hẹn gặp bạn trong hành trình gắn kết sắp tới! 💙<br /></span>',
     buttonText: "THEO DÕI THÊM CÁC THÔNG TIN CHI TIẾT CHƯƠNG TRÌNH TẠI ĐÂY",
@@ -240,7 +301,7 @@ export const scoreResults: ScoreResult[] = [
 ];
 
 export function getScoreResult(score: number): ScoreResult {
-  if (score <= 14) return scoreResults[0];
-  if (score === 15) return scoreResults[1];
+  if (score <= 19) return scoreResults[0];
+  if (score === 20) return scoreResults[1];
   return scoreResults[0];
 }

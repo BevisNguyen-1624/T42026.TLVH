@@ -175,7 +175,7 @@ export default function App() {
                     <div className="space-y-4 text-left">
                       <p className="text-lg leading-8 text-slate-700">
                         Chào mừng bạn đến với quiz{" "}
-                        <strong>TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY 2026</strong> Mỗi chuyến đi đều bắt đầu từ những người đồng hành. Hãy cùng khám phá chương trình để hiểu hơn về những quyền lợi, hoạt động và ý nghĩa đằng sau hành trình mà Công ty dành tặng cho mỗi đội nhóm. Hy vọng đây sẽ là khởi đầu cho thật nhiều kỷ niệm đáng nhớ cùng đồng đội!
+                        <strong>TÌM HIỂU QUY ĐỊNH ĐÀO TẠO VÀ CHÍNH SÁCH BẢO HIỂM XÃ HỘI 2026</strong> Mỗi chuyến đi đều bắt đầu từ những người đồng hành. Hãy cùng khám phá chương trình để hiểu hơn về những quyền lợi, hoạt động và ý nghĩa đằng sau hành trình mà Công ty dành tặng cho mỗi đội nhóm. Hy vọng đây sẽ là khởi đầu cho thật nhiều kỷ niệm đáng nhớ cùng đồng đội!
                       </p>
                     </div>
 
@@ -186,10 +186,10 @@ export default function App() {
                       <ul className="list-disc space-y-2 pl-5 text-slate-700 leading-7">
                         <li>
                           Chọn đáp án bạn cho là chính xác nhất với mỗi câu
-                          hỏi, tổng cộng có 15 câu hỏi
+                          hỏi, tổng cộng có 20 câu hỏi
                         </li>
                         <li>
-                          Nhân sự trả lời đúng 15/15 sẽ nhận 50 Y Point và
+                          Nhân sự trả lời đúng 20/20 sẽ nhận 100 Y Point và
                           được ghi nhận hoàn thành thử thách.
                         </li>
                         <li>
@@ -203,7 +203,7 @@ export default function App() {
                         Chúng ta hãy cùng nhau
                       </p>
                       <h2 className="text-2xl text-orange-600 font-semibold text-slate-900">
-                        TÌM HIỂU CHƯƠNG TRÌNH GẮN KẾT CÔNG TY 2026 NHÉEEE!!!
+                        TÌM HIỂU QUY ĐỊNH ĐÀO TẠO VÀ CHÍNH SÁCH BẢO HIỂM XÃ HỘI 2026 NHÉEEE!!!
                       </h2>
                     </div>
                   </div>
