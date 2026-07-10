@@ -240,7 +240,7 @@ export const quizQuestions: Question[] = [
       { key: "A", text: "A. Không được hưởng chế độ này" },
       { key: "B", text: "B. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác" },
       { key: "C", text: "C. Được nghỉ tối đa 10 ngày với sinh đôi trở lên; tối đa 7 ngày với lao động nữ sinh con phải phẫu thuật và tối đa 5 ngày đối với các trường hợp khác và hưởng tiền dưỡng sức sau sinh = Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" },
-      { key: "D", text: "D. Hưởng tiền dưỡng sức sau sinh = Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở" }
+      { key: "D", text: "D. Hưởng tiền dưỡng sức sau sinh = Số ngày nghỉ dưỡng sức * 30% * Mức lương cơ sở " }
     ],
     correctAnswer: "C",
     explanation: ""
