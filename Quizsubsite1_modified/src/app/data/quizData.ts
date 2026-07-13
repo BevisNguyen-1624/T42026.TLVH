@@ -54,7 +54,7 @@ export const quizQuestions: Question[] = [
   },
   {
     id: 3,
-    question: "[QĐĐT] Theo khung quy định chung CẢ NĂM, cấp bậc L3 (Trưởng nhóm / Quản lý cửa hàng) cần hoàn thành tối thiểu bao nhiêu giờ đào tạo?",
+    question: "[QĐĐT] Theo khung quy định chung CẢ NĂM, cấp bậc L3 (Trưởng nhóm / Quản lý cửa hàng) cần hoàn thành tối thiểu bao nhiêu giờ học & đào tạo?",
     options: [
       { key: "A", text: "A. 12 giờ/năm" },
       { key: "B", text: "B. 18 giờ/năm" },
