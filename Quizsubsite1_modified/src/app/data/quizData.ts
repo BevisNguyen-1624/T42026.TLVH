@@ -263,7 +263,7 @@ export const quizQuestions: Question[] = [
     options: [
       { key: "A", text: "A. 3 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về cơ quan BHXH - Cơ quan BHXH phê duyệt và thanh toán" },
       { key: "B", text: "B. 2 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về cơ quan BHXH" },
-      { key: "C", text: "C. 4 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về cơ quan BHXH - C&B lập danh sách đề nghị giải quyết - Cơ quan BHXH phê duyệt và thanh toán" },
+      { key: "C", text: "C. 4 Bước - Tạo đơn xin nghỉ lý do Nghỉ không lương - Gửi giấy tờ về Chuyên viên C&B - C&B lập danh sách đề nghị giải quyết - Cơ quan BHXH phê duyệt và thanh toán" },
       { key: "D", text: "D. Chỉ cần làm đơn trên phần mềm" }
     ],
     correctAnswer: "C",
